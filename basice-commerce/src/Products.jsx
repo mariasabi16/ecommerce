@@ -4,7 +4,7 @@ const Products = ({sortedProducts}) => {
   return (
     <div className='flex flex-row gap-3 space-x-3 text-xl'>
         {sortedProducts.map((product)=>(
-            <div className='flex flex-col w-64 p-2 m-2 text-white bg-blue-900'>
+            <div className='flex flex-col w-64 p-2 m-2 text-white bg-green-800'>
                 <div>
                 {
                     product.name

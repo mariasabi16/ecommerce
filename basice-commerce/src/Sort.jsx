@@ -4,16 +4,16 @@ const Sort = (props) => {
   return (
     
     <div className='flex flex-col'>
-        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4' onClick={e=>props.allProducts()}>
+        <button className='bg-green-500 hover:bg-violet-700 text-white font-bold py-2 px-4' onClick={e=>props.allProducts()}>
             All Products
         </button>
-        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4' onClick={e=>props.cloths()}>
-            Cloths
+        <button className='bg-green-500 hover:bg-violet-700 text-white font-bold py-2 px-4' onClick={e=>props.clothes()}>
+            Clothes
         </button>
-        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4' onClick={e=>props.toys()}>
+        <button className='bg-green-500 hover:bg-violet-700 text-white font-bold py-2 px-4' onClick={e=>props.toys()}>
             Toys
         </button>
-        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4' onClick={e=>props.electronics()}>
+        <button className='bg-green-500 hover:bg-violet-700 text-white font-bold py-2 px-4' onClick={e=>props.electronics()}>
             Electronics
         </button>
     </div>
